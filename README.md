@@ -29,7 +29,7 @@ Users can paste a news article, and the system will instantly determine whether 
 
 ## 📂 Project Files
 
-fake_news_project/
+Fake-News-Detection-System-Python-Machine-Learning/
 
 │── fake_new.py        # Main Flask application  
 
@@ -37,13 +37,27 @@ fake_news_project/
 
 │── Fake.csv           # Fake news dataset  
 
-│── model.pkl          # Trained ML model (optional)  
+│── model.pkl          # Trained ML model 
 
 │── index.html         # Frontend UI  
 
 │── project_pdf.pdf    # Project documentation  
 
 > Note: Files are uploaded individually (no folder structure required).
+
+---
+
+## 📊 Dataset Information
+
+Due to GitHub file size limits, the datasets are not included in this repository.
+
+Download datasets from Kaggle:
+- True News Dataset
+- Fake News Dataset
+
+After downloading:
+1. Place `True.csv` and `Fake.csv` in the same directory as `fake_new.py`
+2. Ensure filenames match exactly
 
 ---
 
