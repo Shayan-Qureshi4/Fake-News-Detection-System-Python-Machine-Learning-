@@ -29,50 +29,54 @@ Users can paste a news article, and the system will instantly determine whether 
 
 ## 📂 Project Files
 
-Fake_News_Detection_System/
-│
-├── fake_new.py # Main Flask application
-├── True.csv # True news dataset
-├── Fake.csv # Fake news dataset
-├── model.pkl # Trained ML model (optional)
-├── index.html # Frontend UI
-└── project_pdf.pdf # Project documentation
+fake_news_project/
 
+│── fake_new.py        # Main Flask application  
 
-> Note: Files are uploaded individually (no folders required).
+│── True.csv           # True news dataset  
+
+│── Fake.csv           # Fake news dataset  
+
+│── model.pkl          # Trained ML model (optional)  
+
+│── index.html         # Frontend UI  
+
+│── project_pdf.pdf    # Project documentation  
+
+> Note: Files are uploaded individually (no folder structure required).
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
-Make sure you have **Python 3.8+** installed.
 
-Install required libraries:
-```bash
+Python **3.8+**
+
+Install dependencies:
+bash
 pip install flask pandas scikit-learn
 
 ---
 
-## How to Run the Project (Step by Step)
+### ▶️ How to Run the Project
+## Step 1: Open Terminal / Command Prompt
 
-Step 1: Open Command Prompt / Terminal
-
-Navigate to the folder where all project files are saved:
+Navigate to the directory where all files are stored:
 
 cd path/to/fake_news_project
 
-Step 2: Run the Flask Application
+## Step 2: Run the Flask Application
 python fake_new.py
 
-Step 3: Open in Browser
+## Step 3: Open in Browser
 
-After running, open:
+Open:
 
 http://127.0.0.1:5000
 
-Step 4: Test the System
+## Step 4: Test the System
 
-Paste any news article text
+Paste a news article
 
 Click Predict
 
@@ -82,7 +86,7 @@ Get instant result:
 
 ❌ Fake News
 
----
+--- 
 
 ## 🧪 Model Details
 
@@ -92,7 +96,7 @@ Text Processing: TF-IDF Vectorizer
 
 Dataset Split: 80% Training / 20% Testing
 
-Prediction Output: JSON response via Flask API
+Output: JSON response via Flask API
 
 ---
 
@@ -106,11 +110,10 @@ Pandas
 
 Scikit-learn
 
-HTML (Frontend)
+HTML
 
 ---
 
-🔗 Connect With Me
 
 ## 👨‍💻 Author
 
@@ -124,8 +127,11 @@ https://github.com/Shayan-Qureshi4
 
 ---
 
-
 ## 📄 License
 
 This project is developed for **educational purposes** and academic learning.
+
+
+
+
 
